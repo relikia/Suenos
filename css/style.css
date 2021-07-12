@@ -6,41 +6,16 @@ body {
    margin: 0;
 }
 
-p {
- margin-bottom: 1.6em;
-}
-
-h1 {
-    line-height: 1.3em;
-    font-size: 2rem;
-}
-
-.container {
-    width: 90%;
-    max-width: 950px;
-    margin: 0 auto;
-}
-
-nav {
-	float: right;
-	width: 73%;
-	text-align: right;
-	margin-right: 25px;
-}
-img {
-    height: 350px;
-    align-items: center;
-}
-
 .header {
     background: #333;
     color: white;
     margin: 0;
     padding: 2rem 0;
-    position: fixed;
+    /* position: fixed; */
     left: 0;
     top: 0;
     right: 0;
+    background: linear-gradient(35deg, #528d8d, hsl(0, 63%, 76%));
 }
 .header a {
     text-decoration: none;
@@ -57,9 +32,15 @@ img {
 .logo {
     letter-spacing: 15px;
     font-size: 1.2em;
-    align-items: flex-start;;
+    align-items: flex-start;
+    padding-left: 15px;
 }
-
+nav {
+    float: right;
+    width: 73%;
+    text-align: right;
+    margin-right: 25px;
+}
 .navigation ul {
   margin: 0;
   padding: 0;
@@ -82,7 +63,37 @@ img {
 }
 
 .main {
-    padding: 12rem;
+    padding: 2rem;
+}
+
+/* p {
+    margin-bottom: 1.6em;
+} */
+   
+h1 {
+       line-height: 1.3em;
+       font-size: 2rem;
+}
+   
+.container {
+       width: 90%;
+       max-width: 950px;
+       margin: 0 auto;
+       text-align: justify;
+}
+ 
+.articulo h1 {
+    font-size: 20px;
+
+}
+
+.article-img {
+    float: right;
+}
+.article-img img {
+     flex: 0 0 30%;
+     height: 200px;
+     margin: 10px 10px;
 
 }
 
@@ -95,4 +106,10 @@ img {
     top: 90%;
     right: 0;
     bottom: 0;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
 }
